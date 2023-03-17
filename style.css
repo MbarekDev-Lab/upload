@@ -1,0 +1,116 @@
+/* *, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #483EA8;   
+
+}
+.box{
+    width: 500px;
+    background: #F5F5F5 ;
+    padding: 30px;
+    border-radius: 5px;
+}
+.upload-area-title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600p;
+}
+.uploadlabl{
+    width: 100%;
+    min-height: 100px;
+    background: rgb(120, 120, 129);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px dashed gray;
+    cursor: pointer;
+}
+.uploadlabl span{
+    font-size : 70px;
+    color: #18a7ff;
+}
+
+.uploadlabl p{
+    color : #18a7ff;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: cursive;
+}
+.uploaded{
+    margin: 30px 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: gray;
+}
+
+.showfilebox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:  10px 0;
+    padding: 10px 15px;
+    height: 30px;
+    box-shadow: black 0px 0px 0px 1px, gray 0px 0px 0px 1px inset;
+}
+
+.showfilebox .left{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 30px 0;
+    font-size: 16px;
+    font-weight:  700;
+    color: #370505;
+
+}
+.filetype{
+    background: aqua;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.left h3{
+    font-weight: 600;
+    font-size: 18px;
+    color: #292f42;
+    margin: 0;
+}
+.right span {
+    background: #18a7ff;
+    color: #fff;
+    width:  25px;
+    height: 25px;
+    font-size: 25px;
+    line-height: 25px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 50%;
+
+
+}
